@@ -12,7 +12,7 @@ import requests
 warnings.filterwarnings("ignore", message="missing ScriptRunContext")
 
 # Ensure the working directory is correct
-os.chdir("d:/ML-Project/Maternal_Care")
+#os.chdir("d:/ML-Project/Maternal_Care")
 
 from codebase.dashboard_graphs import MaternalHealthDashboard
 
