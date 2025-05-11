@@ -32,6 +32,7 @@ Here’s how to get started with the local setup:
 Step 1: Clone the Repository
 
 git clone https://github.com/your-username/medpredict.git
+
 cd medpredict
 
 Step 2: Install Required Libraries
