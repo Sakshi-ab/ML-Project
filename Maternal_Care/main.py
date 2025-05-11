@@ -9,6 +9,16 @@ from io import StringIO
 import requests
 
 
+# Debugging: Print the current working directory
+print("Current Working Directory:", os.getcwd())
+
+# Debugging: List files in the 'model' folder
+if os.path.exists("model"):
+    print("Files in 'model' folder:", os.listdir("model"))
+else:
+    print("'model' folder does not exist")
+
+
 warnings.filterwarnings("ignore", message="missing ScriptRunContext")
 
 # Ensure the working directory is correct
