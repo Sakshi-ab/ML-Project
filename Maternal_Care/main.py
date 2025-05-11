@@ -54,7 +54,7 @@ if (selected == 'About us'):
                  " Body Sugar levels, Blood Pressure, and more. By processing these information, we provide accurate risk assessment"
                  " to help expectant mothers and healthcare professionals make informed decisions.")
         #Add an image fot Pregnancy Risk Prediction
-        st.image("graphics\pregnancy_risk_image.jpg", caption="Pregnancy Risk Prediction", use_container_width=True)
+        st.image("graphics/pregnancy_risk_image.jpg", caption="Pregnancy Risk Prediction", use_container_width=True)
         
     with col2:
         #section 2: Fetal Health Prediction
@@ -63,7 +63,7 @@ if (selected == 'About us'):
                  "Our algorithms analyze data from Cardiotocograms (CTGs) to provide insights into fetal health status."
                  "we deliver insights into well-being of the unborn child.")
         #Add an image fot Pregnancy Risk Prediction
-        st.image("graphics\Fetal_Health_image.jpg", caption="Fetal Health Prediction", use_container_width=True)
+        st.image("graphics/Fetal_Health_image.jpg", caption="Fetal Health Prediction", use_container_width=True)
         
     #Section 3: Dashboard
     st.header("3. Dashboard")
