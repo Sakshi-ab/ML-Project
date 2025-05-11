@@ -21,8 +21,9 @@ else:
 
 warnings.filterwarnings("ignore", message="missing ScriptRunContext")
 
-# Ensure the working directory is correct
-#os.chdir("d:/ML-Project/Maternal_Care")
+# Ensure the working directory is correct-hardcoding the path
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+#os.chdir("d:/ML-Project/Maternal_Care") 
 
 from codebase.dashboard_graphs import MaternalHealthDashboard
 
